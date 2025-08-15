@@ -13,7 +13,7 @@ It supports:
 
 ### 1. Clone this repository
 ```bash
-git clone [https://github.com/your-username/seek-job-scraper](https://github.com/penguinboy1108/seek_job_saver).git
+git clone https://github.com/qiananzxq-q/seek_job_saver.git
 ```
 
 ---
@@ -90,18 +90,18 @@ Table schema:
 
 ```sql
 CREATE TABLE IF NOT EXISTS jobs (
-    id TEXT PRIMARY KEY,
-    job_url TEXT UNIQUE,
-    job_title TEXT,
-    company TEXT,
-    address TEXT,
-    field TEXT,
-    job_type TEXT,
-    posted_date TEXT,
-    applied_date TEXT,
-    jd TEXT,
-    created_at TEXT
-);
+            id TEXT PRIMARY KEY,
+            job_url TEXT UNIQUE,
+            job_title TEXT,
+            company TEXT,
+            address TEXT,
+            field TEXT,
+            job_type TEXT,
+            posted_date TEXT,
+            applied_date TEXT,
+            jd TEXT,
+            created_at TEXT
+        );
 ```
 
 ---
@@ -117,4 +117,4 @@ CREATE TABLE IF NOT EXISTS jobs (
 
 ## 🛡 License
 
-MIT License © 2025 Weizheng Jiang
+MIT License © 2025 Qiana Wang
